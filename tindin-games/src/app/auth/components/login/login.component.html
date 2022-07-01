@@ -1,0 +1,48 @@
+<mat-card>
+    <mat-card-title>Login</mat-card-title>
+
+    <mat-card-content>
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <p>
+                <mat-form-field>
+                    E-mail
+                    <input formControlName="email" matInput placeholder="tindin@games.com" required type="email" id="email" autocomplete="off"/>
+                </mat-form-field>
+            </p>
+            <p>
+                <mat-form-field>
+                    Senha
+                    <input formControlName="password" matInput placeholder="Senha" required type="password" id="password"/>
+                    <br>
+                    <mat-hint>
+                        <strong>CAUTION:</strong> Do not reuse any of your existing password.
+                    </mat-hint>
+                </mat-form-field>
+            </p>
+            <p>
+                <a href="#" mat-button>Forgot password?</a>
+            </p>
+            <p>
+                <button type="submit" value="login">Login</button>
+            </p>
+            <div class="social-container" id="rede-social">
+                <p>Acesse pelas redes sociais</p>
+                <a href="https://www.facebook.com">
+                <i class="material-icons">facebook</i>
+                </a>
+                <a href="https://www.linkedin.com">
+                <i class="material-icons">LinkedIn</i>
+                </a>
+                <a href="https://www.gmail.com">
+                <i class="material-icons">E-mail</i>
+                </a>
+            </div>
+            <div class="cadastrar-container" id="cadastrar-conta">
+                <p>Ainda não tem uma conta?</p>
+                <a href="#">Registrar-se</a>
+            </div>
+        </form>
+
+
+    </mat-card-content>
+</mat-card>

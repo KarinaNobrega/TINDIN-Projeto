@@ -1,0 +1,21 @@
+<div class="header">
+    <span class="title">GAMES</span>
+
+    <span>
+    <input type="text" placeholder="search game"> <button><i class="material-icon">search</i></button>
+   </span> 
+</div>
+
+<div class="banner"> 
+    <img src="/tindin-games/src/assets/img/banner.1.webp" alt="banner">
+</div>
+
+<ul>
+    <li *ngFor="let game of games" (click)="onSelect(game)">
+        <span>{{ game.name }}</span>
+    </li>
+</ul>
+
+<div class="loading">
+    <button class="carregar">Load More</button>
+</div>

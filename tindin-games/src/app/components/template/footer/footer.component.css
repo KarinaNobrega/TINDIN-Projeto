@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+.footer{
+    font-family: 'Squada One', cursive;
+    color: black;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    font-size: 13px;
+    letter-spacing: 3px;
+    background: rgb(190, 189, 189);
+  }
+  

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+.mat-card-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+form{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+a:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.mat-form-field{
+    width: 100%;
+    min-width: 400px;
+}
+
+.mat-button{
+    text-align: end;
+}
