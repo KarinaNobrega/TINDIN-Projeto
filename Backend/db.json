@@ -1,0 +1,51 @@
+{
+    "game": [{
+        "id": 1,
+        "name": "Voleibol",
+        "price": 59.99
+    },{
+        "id": 2,
+        "name": "Futebol",
+        "price": 65.99
+    },{
+        "id": 3,
+        "name": "Rugby",
+        "price": 52.98
+    },{
+        "id": 4,
+        "name": "Hipismo",
+        "price": 65.99
+    },{
+        "id": 5,
+        "name": "Nutrição",
+        "price": 47.69
+    },{
+        "id": 6,
+        "name": "Atletismo",
+        "price": 28.95
+    },{
+        "id": 7,
+        "name": "Goalball",
+        "price": 29.99 
+    },{
+        "id": 8,
+        "name": "Skate",
+        "price": 46.50
+    },{
+        "id": 9,
+        "name": "Surf",
+        "price": 39.90
+    },{
+        "id": 10,
+        "name": "Ginástica Rítmica",
+        "price": 36.50
+    },{
+        "id": 11,
+        "name": "Tiro com arco",
+        "price": 37.80
+    },{
+        "id": 12,
+        "name": "Lutas",
+        "price": 45.80
+    }]
+}
