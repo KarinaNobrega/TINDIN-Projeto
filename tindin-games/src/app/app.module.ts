@@ -10,6 +10,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { AuthModule } from './auth/auth.module';
 import { GamesComponent } from './components/template/games/games.component';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { GamesComponent } from './components/template/games/games.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     AuthModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
